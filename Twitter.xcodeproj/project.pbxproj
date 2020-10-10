@@ -15,6 +15,7 @@
 		6EBCF54E21E71F9400451C03 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6EBCF54D21E71F9400451C03 /* Launch Screen.storyboard */; };
 		E1445C5D25314FA800941147 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1445C5C25314FA800941147 /* LoginViewController.swift */; };
 		E1CBE9532531544400755B83 /* HomeTableTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1CBE9522531544400755B83 /* HomeTableTableViewController.swift */; };
+		E1CBE95C25315ADC00755B83 /* TweetCellTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1CBE95B25315ADC00755B83 /* TweetCellTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		C2D685C92646819A9A0DC30C /* Pods-Twitter.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Twitter.release.xcconfig"; path = "Pods/Target Support Files/Pods-Twitter/Pods-Twitter.release.xcconfig"; sourceTree = "<group>"; };
 		E1445C5C25314FA800941147 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		E1CBE9522531544400755B83 /* HomeTableTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTableTableViewController.swift; sourceTree = "<group>"; };
+		E1CBE95B25315ADC00755B83 /* TweetCellTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TweetCellTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +84,7 @@
 				6EBCF53121DF07FE00451C03 /* Info.plist */,
 				E1445C5C25314FA800941147 /* LoginViewController.swift */,
 				E1CBE9522531544400755B83 /* HomeTableTableViewController.swift */,
+				E1CBE95B25315ADC00755B83 /* TweetCellTableViewCell.swift */,
 			);
 			path = Twitter;
 			sourceTree = "<group>";
@@ -209,6 +212,7 @@
 				E1445C5D25314FA800941147 /* LoginViewController.swift in Sources */,
 				E1CBE9532531544400755B83 /* HomeTableTableViewController.swift in Sources */,
 				6EBCF54421E047A500451C03 /* TwitterAPICaller.swift in Sources */,
+				E1CBE95C25315ADC00755B83 /* TweetCellTableViewCell.swift in Sources */,
 				6EBCF52621DF07FC00451C03 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
