@@ -58,7 +58,6 @@ class HomeTableTableViewController: UITableViewController {
         
         let user = tweetsArray[indexPath.row]["user"] as! NSDictionary
         
-        
         cell.userNameLabel.text = user["name"] as? String
         cell.tweetsContent.text = tweetsArray[indexPath.row]["text"] as! String
         
@@ -69,8 +68,8 @@ class HomeTableTableViewController: UITableViewController {
             cell.profileImageView.image = UIImage(data: imageData)
         }
         
-        
-        
+        cell.setFavorited(tweetsArray[indexPath.row]["favorited"] as! Bool)
+        cell.tweetId = tweetsArray[indexPath.row]["id"] as! Int
         return cell
     }
     
